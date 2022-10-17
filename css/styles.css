@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+}
+main {
+  max-width: 350px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 100px auto;
+  padding: 20px;
+  font-family: 'Outfit';
+  font-size: 16px;
+  border-radius: 10px;
+  position: relative;
+}
+
+h1{
+  font-weight: 600;
+  line-height: 2;
+  font-size: 1.5rem;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+p {
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+  line-height: 1.4;
+}
+.container {
+  max-width: 100%;
+  background-color: aqua;
+  position: relative;
+  border-radius: 12px;
+   
+}
+.big-img {
+  display: block;
+  max-width: 100%;
+  z-index: 2;
+  position: relative;
+  border-radius: 10px;
+}
+
+.big-img:hover {
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.view-img {
+  z-index: 1;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+.num1 {
+  font-weight: 400;
+  color: hsl(178, 100%, 50%);
+}
+
+.num2 {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%); 
+}
+
+hr {
+  border-style: none;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.footer {
+  margin: 30px 0;
+}
+
+.avatar-img {
+  width: 15%;
+  float : left;
+  margin-right: 20px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+.author:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.footer p {
+  padding-top: 10px;
+}
